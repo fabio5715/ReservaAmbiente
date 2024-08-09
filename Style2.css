@@ -1,0 +1,56 @@
+body{
+    background-color: #a1a1a1;
+}
+.aplicativo p{
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    width: 600px;
+    
+}
+section div a{
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+}
+.button{
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    padding: 15px 32px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 220px;
+    overflow: auto;
+    float: left;
+}
+
+.container_app:hover{
+    color: white;
+    transition: 2s;
+    border: red;
+    box-shadow: 10px;
+}
+.container_app {
+    padding: 30px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    display: flex;
+    width: 600px;
+}
+
+a:hover{
+    box-shadow: 0 0 8px #00ff08;
+    transform: scale(1.10);
+    background-color: white;
+    color: green;
+    font-weight: 700;
+}
